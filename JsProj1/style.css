@@ -30,7 +30,7 @@ img {
     margin: 10px auto;
     display: flex;
     flex-direction: row;
-    background-color: crimson;
+    background-color: orangered;
     padding: 10px;
   }
   
@@ -38,8 +38,32 @@ img {
     max-width: 200px;
     max-height: 350px;
   }
-  
+
   .contentDiv {
     flex-grow: 1;
     padding: 15px;
+  }
+
+  #starRating {
+      width: max-content;
+      cursor: pointer;
+  }
+
+
+
+  .star {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+  .selected {
+      color: rgb(251, 255, 0);
+  }
+
+  .hover {
+      color:rgba(251, 255, 0, 0.493);
+  }
+
+  .no-hover {
+    color: rgb(255, 255, 255);
   }

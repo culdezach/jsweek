@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="mainDiv">
-        <div id="imgDiv">
-            <img src="http://wafflesatnoon.com/wp-content/uploads/2015/10/bravo-rock.jpg">
-        </div>
+        <div id="imgDiv"></div>
 
-        <div id="contentDiv">
-            <h1>Title</h1>
-            <p>Generic description of movie..</p>
-            <ul>
-                <li>Actor1</li>
-                <li>Actor2</li>
-                <li>Actor3</li>
-            </ul>
+        <div class="contentDiv">
+            <h1 id="movieTitle"></h1>
+                <div id="starRating">
+                    <span id="bright1" class="star">&#9733;</span>
+                    <span id="bright2" class="star">&#9733;</span>
+                    <span id="bright3" class="star">&#9733;</span>
+                    <span id="bright4" class="star">&#9733;</span>
+                    <span id="bright5" class="star">&#9733;</span>
+                </div>
+            <p id="movieDescription"></p>
+            <ul id="castList"></ul>
         </div>
     </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="data.js"></script>
+    <script src="code.js"></script>
 </body>
 </html>
